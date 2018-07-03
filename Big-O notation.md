@@ -19,4 +19,4 @@ Big-O | Name | Description
 **O(n!)** | factorial | **Intolerably slow.** It literally takes a million years to do anything.  
 
 ## Example:
-Please visit [Raywenderlich Swift Algorithm](https://github.com/raywenderlich/swift-algorithm-club/edit/master/Big-O%20Notation.markdown)
+Please visit [Raywenderlich Swift Algorithm](https://github.com/raywenderlich/swift-algorithm-club/blob/master/Big-O%20Notation.markdown)
