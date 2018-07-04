@@ -5,7 +5,8 @@ O(1) extra space
 Time complexity:
 - worst: O(n2) comparisons and swaps
 - best: O(n) when nearly sorted
-not stable
+
+not stable </br>
 adaptive - O(n) time when nearly sorted
 
 Use cases:
@@ -16,9 +17,10 @@ Similar to insertion sort (many properties are the same for insertion and bubble
 O(1) extra space 
 
 O(n^2) comparisons (for worst and best)
-O(n) swaps
-not stable
-not adaptive
+
+O(n) swaps</br>
+not stable</br>
+not adaptive</br>
 
 Use cases:
 Since selection sort minimizes the number of swaps, it's useful when the cost of swapping items is high.
@@ -30,8 +32,9 @@ O(1) extra space
 Time complexity:
 - worst: O(n^2) comparisons and swaps
 - best: O(n) when nearly sorted
-stable
-adaptive - O(n) time when nearly sorted
+
+stable</br>
+adaptive - O(n) time when nearly sorted</br>
 
 Use cases:
 When the data is nearly sorted (since it's adaptive) or when the problem size is small (because it has low memory overhead)
@@ -41,7 +44,8 @@ When the data is nearly sorted (since it's adaptive) or when the problem size is
 O(n) extra space
 
 O(n^2) time (for few unique keys), but typically O(n·log(n)) if recursion is balanced
-not stable
+
+not stable</br>
 not adaptive
 
 Use cases:
